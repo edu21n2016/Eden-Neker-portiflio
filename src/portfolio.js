@@ -9,18 +9,6 @@ import emoji from "react-easy-emoji";
 const illustration = {
   animated: true // Set to false to use static SVG
 };
-
-// portfolio.js
-
-// Add these at the bottom or wherever appropriate
-export const isHireable = true; // or false depending on your case
-
-export const splashScreen = {
-  enabled: true,
-  animation: true,
-  duration: 2000
-};
-
 const greeting = {
   username: "EdenNeker",
   title: "Hi All, I'm EDEN NEKER",
