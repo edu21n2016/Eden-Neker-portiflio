@@ -1,4 +1,4 @@
-@import "../../_globalColor";
+@use '../../_globalColor' as *;
 
 .card-image {
   max-width: 100%;
@@ -7,14 +7,14 @@
 }
 .card-title {
   color: $titleColor;
-  font-size: 1.375rem;
+  font-size: 22px;
   line-height: 24px;
   font-weight: 700;
   margin: 15px 0 0 0;
 }
 .card-subtitle {
   color: $cardSubtitle;
-  font-size: 1.063rem;
+  font-size: 17px;
   line-height: 1.5rem;
 }
 .certificate-card {
@@ -40,9 +40,7 @@
   position: relative;
   height: 250px;
   overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 .achievement-cards-div {
   display: grid;

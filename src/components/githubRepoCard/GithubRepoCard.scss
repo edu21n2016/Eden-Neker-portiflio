@@ -1,4 +1,4 @@
-@import "../../_globalColor";
+@use '../../_globalColor' as *;
 
 .repo-card-div {
   color: $githubRepoCardColor;
@@ -84,11 +84,6 @@
 .dark-card-mode p {
   color: $textColorDark;
 }
-
-.dark-card-mode .repo-svg {
-  fill: $textColorDark;
-}
-
 .dark-card-mode:hover {
   background-color: $buttonColor !important;
   box-shadow: 0px 0px 16px $darkBoxShadow;

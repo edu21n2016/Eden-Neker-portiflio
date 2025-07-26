@@ -1,4 +1,4 @@
-@import "../../_globalColor";
+@use '../../_globalColor' as *;
 
 .card-image {
   max-width: 100%;
@@ -53,9 +53,7 @@
   position: relative;
   height: 250px;
   overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  text-align: center;
 }
 
 .projects-container {

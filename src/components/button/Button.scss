@@ -1,5 +1,4 @@
-@import "../../_globalColor";
-
+@use '../../_globalColor' as *;
 .main-button {
   background-color: $buttonColor;
   border: solid 1px $buttonColor;
@@ -14,7 +13,7 @@
   text-decoration: none;
   display: block;
   margin-top: 20px;
-  font-size: 1rem;
+  font-size: 16px;
   cursor: pointer;
   transition: all 0.3s ease-in-out 0s;
 }
@@ -35,13 +34,13 @@
 /* Media Query */
 @media (max-width: 768px) {
   .main-button {
-    font-size: 0.938rem;
+    font-size: 15px;
     padding: 12px 18px;
     margin-right: 0px;
   }
 }
 @media (max-width: 320px) {
   .main-button {
-    font-size: 0.75rem;
+    font-size: 12px;
   }
 }

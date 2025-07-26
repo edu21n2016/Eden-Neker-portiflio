@@ -1,5 +1,4 @@
-@import "../../_globalColor";
-
+@use '../../_globalColor' as *;
 .talk-header-title {
   font-size: 56px;
   font-weight: 400;

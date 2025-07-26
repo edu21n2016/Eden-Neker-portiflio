@@ -1,4 +1,5 @@
-@import "./globalColor";
+@use './_globalColor' as *;
+// ...existing code...
 
 .App {
   text-align: center;
@@ -17,7 +18,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(0.625rem + 2vmin);
+  font-size: calc(10px + 2vmin);
   color: $textColorDark;
 }
 
