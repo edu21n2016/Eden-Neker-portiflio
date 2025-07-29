@@ -168,11 +168,6 @@ const workExperiences = {
 /* Your Open Source Section to View Your Github Pinned Projects
 To know how to get github key look at readme.md */
 
-const openSource = {
-  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
-  display: true // Set false to hide this section, defaults to true
-};
-
 // Some big projects you have worked on
 
 const bigProjects = {
@@ -220,7 +215,7 @@ const achievementSection = {
     {
       title: "GDG Developer club",
       subtitle:
-        "Member Of GDG student developer Team  as beginner track mentor and frontend.",
+        "Member Of GDG student developer Team  as eginner track mentor and frontend.",
       image: require("./assets/images/GDG.png"),
       footerLink: [
         {
@@ -299,6 +294,10 @@ const podcastSection = {
   ],
   display: true // Set false to hide this section, defaults to true
 };
+const openSource = {
+  showGithubProfile: "true", // Set true or false to show Contact profile using Github, defaults to true
+  display: true // Set false to hide this section, defaults to true
+};
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
@@ -322,12 +321,12 @@ export {
   educationInfo,
   techStack,
   workExperiences,
-  openSource,
   bigProjects,
   achievementSection,
   blogSection,
   talkSection,
   podcastSection,
+   openSource,
   contactInfo,
   twitterDetails
 };
